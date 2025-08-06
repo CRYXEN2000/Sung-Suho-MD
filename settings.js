@@ -6,16 +6,16 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "drakonis~YuUUzJJQ#LDuIKz-38lhfaNKyuga9w0-v5Mxjs66FgLL8ANDgjkA",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
+    BOT_NAME: process.env.BOT_NAME || "༄༒𓂆𝐂𝐑𝐘𝐗𝐄𝐍²¹⁰⁹𓂆༒༄ 𝐁𝐋𝐎𝐎𝐃 𝐀𝐍𝐎𝐗",
     // add bot name here for menu
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
     LINK_WHITELIST: "youtube.com,github.com",
@@ -33,68 +33,64 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝐉𝐞 𝐬𝐮𝐢𝐬 𝐥𝐞 𝐬𝐞𝐮𝐥𝐞 𝐚 𝐞̂𝐭𝐫𝐞 𝐚𝐝𝐨𝐫𝐞́ 𝐬𝐮𝐫 𝐭𝐞𝐫𝐫𝐞 𝐜𝐨𝐦𝐦𝐞 𝐝𝐚𝐧𝐬 𝐥𝐞𝐬 𝐜𝐢𝐞𝐮x ༄༒𓂆𝐂𝐑𝐘𝐗𝐄𝐍²¹⁰⁹𓂆༒༄ 𝐁𝐋𝐎𝐎𝐃 𝐀𝐍𝐎𝐗 𝐯𝐨𝐮𝐬 𝐨𝐛𝐬𝐞𝐫𝐯𝐞 ☆👁️",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
     // make true to know who dismiss or promoted a member in group
 
-    ANTI_LINK: process.env.ANTI_LINK || "true",
+    ANTI_LINK: process.env.ANTI_LINK || "false",
     // make anti link true,false for groups 
 
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
     // make true if want auto voice reply if someone mention you 
 
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/tuzcp7.png",
     // add custom menu and mention reply image url
 
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/vcofni.jpg",
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/tuzcp7.png",
     // add img for alive msg
 
     LIVE_MSG: process.env.LIVE_MSG || 
-`> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ
+`𝐄́𝐩𝐫𝐨𝐮𝐯𝐞 𝐝𝐞 𝐥𝐚 𝐬𝐨𝐮𝐟𝐟𝐫𝐚𝐧𝐜𝐞, 𝐥𝐚 𝐬𝐨𝐮𝐟𝐟𝐫𝐚𝐧𝐜𝐞 𝐟𝐚𝐢𝐭 𝐫𝐞́𝐟𝐥𝐞́𝐜𝐡𝐢𝐫 𝐚𝐜𝐜𝐮𝐞𝐢𝐥𝐥𝐞 𝐥𝐚 𝐞𝐧 𝐭𝐨𝐢 𝐬𝐞𝐧𝐬 𝐫𝐞́𝐬𝐞𝐫𝐯𝐞 𝐩𝐨𝐮𝐫 𝐚𝐩𝐩𝐫𝐞𝐧𝐝𝐫𝐞 𝐚 𝐦𝐢𝐞𝐮𝐱 𝐭𝐞 𝐜𝐨𝐧𝐧𝐚𝐢̂𝐫𝐞, 𝐜𝐞𝐥𝐮𝐢 𝐪𝐮𝐢 𝐧𝐚 𝐩𝐚𝐬 𝐜𝐨𝐧𝐧𝐮𝐞 𝐥𝐚 𝐬𝐨𝐮𝐟𝐟𝐫𝐚𝐧𝐜𝐞 𝐧𝐞 𝐩𝐞𝐮𝐭 𝐩𝐚𝐬 𝐝𝐞́𝐬𝐢𝐫𝐞𝐫 𝐥𝐚 𝐩𝐚𝐢𝐱 𝐯𝐞́𝐫𝐢𝐭𝐚𝐛𝐥𝐞
 
-ᴋᴇᴇᴘ ᴜsɪɴɢ ✦sᴜɴɢ sᴜʜᴏ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡
-
-*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ*
-
-> ɢɪᴛʜᴜʙ : github.com/NaCkS-ai/SungSu-ho-MD`,
+༄༒𓂆𝐂𝐑𝐘𝐗𝐄𝐍²¹⁰⁹𓂆༒༄ 𝐁𝐋𝐎𝐎𝐃 𝐀𝐍𝐎𝐗`,
     // add alive msg here 
 
-    STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+    STICKER_NAME: process.env.STICKER_NAME || "༄༒𓂆𝐂𝐑𝐘𝐗𝐄𝐍²¹⁰⁹𓂆༒༄ 𝐁𝐋𝐎𝐎𝐃 𝐀𝐍𝐎𝐗",
     // type sticker pack name 
 
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
     // make this true for custom emoji react  
 
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,💛,💚,💙,💜,🤎,🖤,🤍",
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "👾,🕳️,⛓️,😌,😎,🥷,🍓,🎭,🏮,🧿,☣️,🚸,🔱,⚜️,✅,▪️,🇨🇮",
     // choose custom react emojis by yourself 
 
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2250545477175",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
+    OWNER_NAME: process.env.OWNER_NAME || "༄༒𓂆𝐂𝐑𝐘𝐗𝐄𝐍²¹⁰⁹𓂆༒༄ 𝐁𝐋𝐎𝐎𝐃 𝐀𝐍𝐎𝐗",
     // add bot owner name
 
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
+    DESCRIPTION: process.env.DESCRIPTION || "*© ༄༒𓂆𝐂𝐑𝐘𝐗𝐄𝐍²¹⁰⁹𓂆༒༄ 𝐁𝐋𝐎𝐎𝐃 𝐀𝐍𝐎𝐗*",
     // add bot owner description  
 
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     // Turn true or false for automatic read msgs
 
-    AUTO_REACT: process.env.AUTO_REACT || "false",
+    AUTO_REACT: process.env.AUTO_REACT || "true",
     // make this true or false for auto react on all msgs
 
     ANTI_BAD: process.env.ANTI_BAD || "false",
     // false or true for anti bad words  
 
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
     // make anti link true,false for groups 
 
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -115,7 +111,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "27813374457",
+    DEV: process.env.DEV || "2250545477175",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
